@@ -1,0 +1,63 @@
+.section {
+    width: 76%;
+    margin: 0 auto;
+    padding: 3rem 0;
+    color: white;
+}
+
+.container {
+    background-color: #424890;
+    padding: 2rem 6rem;
+    border-radius: 1rem;
+    margin: 0 11rem;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input label {
+    display: block;
+    font-size: 1.3rem;
+    margin-bottom: 1.1rem;
+
+}
+
+.input input {
+    width: 55%;
+    padding: 0.3rem;
+    margin-bottom: 1.1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    font-weight: 500;
+    transition: all 400ms ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+.btnPrimary {
+    background: #f75842;
+    color: #fff;
+}
+
+.btnPrimary:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.nav {
+    background-color: #6c63ff;
+    color: white;
+}
+
+.nav__container {
+    width: 76%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.nav__container h4 {
+    font-size: 1.5rem;
+}
+
+.nav__container ul {
+    list-style-type: none;
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.nav__menu li {
+    transition: all 400ms ease;
+}
+
+.nav__menu li:hover {
+    cursor: pointer;
+    color: #424890;
+}
